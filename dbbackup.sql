@@ -170,7 +170,7 @@ CREATE TABLE `sz_postmeta` (
 
 LOCK TABLES `sz_postmeta` WRITE;
 /*!40000 ALTER TABLE `sz_postmeta` DISABLE KEYS */;
-INSERT INTO `sz_postmeta` VALUES (1,2,'_wp_page_template','default'),(2,1,'_edit_lock','1468451847:1'),(3,1,'_edit_last','1');
+INSERT INTO `sz_postmeta` VALUES (1,2,'_wp_page_template','default'),(2,1,'_edit_lock','1468451947:1'),(3,1,'_edit_last','1');
 /*!40000 ALTER TABLE `sz_postmeta` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -406,4 +406,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2016-07-13 23:18:32
+-- Dump completed on 2016-07-13 23:20:44
