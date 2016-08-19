@@ -1,0 +1,30 @@
+[19-Aug-2016 08:15:57 UTC] PHP Notice:  Undefined index: repositories in /vagrant/content/plugins/types/library/toolset/installer/includes/installer.class.php on line 2063
+[19-Aug-2016 08:15:57 UTC] PHP Warning:  Invalid argument supplied for foreach() in /vagrant/content/plugins/types/library/toolset/installer/includes/installer.class.php on line 2063
+[19-Aug-2016 08:15:57 UTC] PHP Notice:  Undefined index: repositories in /vagrant/content/plugins/types/library/toolset/installer/includes/installer.class.php on line 2063
+[19-Aug-2016 08:15:57 UTC] PHP Warning:  Invalid argument supplied for foreach() in /vagrant/content/plugins/types/library/toolset/installer/includes/installer.class.php on line 2063
+[19-Aug-2016 08:15:57 UTC] PHP Notice:  Undefined index: repositories in /vagrant/content/plugins/types/library/toolset/installer/includes/installer.class.php on line 1374
+[19-Aug-2016 08:15:57 UTC] PHP Warning:  Invalid argument supplied for foreach() in /vagrant/content/plugins/types/library/toolset/installer/includes/installer.class.php on line 1374
+[19-Aug-2016 08:15:57 UTC] PHP Notice:  Undefined index: repositories in /vagrant/content/plugins/types/library/toolset/installer/includes/installer.class.php on line 1420
+[19-Aug-2016 08:15:57 UTC] PHP Warning:  Invalid argument supplied for foreach() in /vagrant/content/plugins/types/library/toolset/installer/includes/installer.class.php on line 1420
+[19-Aug-2016 08:15:57 UTC] PHP Notice:  Undefined index: repositories in /vagrant/content/plugins/types/library/toolset/installer/includes/installer.class.php on line 1420
+[19-Aug-2016 08:15:57 UTC] PHP Warning:  Invalid argument supplied for foreach() in /vagrant/content/plugins/types/library/toolset/installer/includes/installer.class.php on line 1420
+[19-Aug-2016 08:19:49 UTC] PHP Notice:  Undefined index: repositories in /vagrant/content/plugins/types/library/toolset/installer/includes/installer.class.php on line 2063
+[19-Aug-2016 08:19:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in /vagrant/content/plugins/types/library/toolset/installer/includes/installer.class.php on line 2063
+[19-Aug-2016 08:19:49 UTC] PHP Notice:  Undefined index: repositories in /vagrant/content/plugins/types/library/toolset/installer/includes/installer.class.php on line 2063
+[19-Aug-2016 08:19:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in /vagrant/content/plugins/types/library/toolset/installer/includes/installer.class.php on line 2063
+[19-Aug-2016 08:19:49 UTC] PHP Notice:  Undefined index: repositories in /vagrant/content/plugins/types/library/toolset/installer/includes/installer.class.php on line 1374
+[19-Aug-2016 08:19:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in /vagrant/content/plugins/types/library/toolset/installer/includes/installer.class.php on line 1374
+[19-Aug-2016 08:19:49 UTC] PHP Notice:  Undefined index: repositories in /vagrant/content/plugins/types/library/toolset/installer/includes/installer.class.php on line 1420
+[19-Aug-2016 08:19:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in /vagrant/content/plugins/types/library/toolset/installer/includes/installer.class.php on line 1420
+[19-Aug-2016 08:19:49 UTC] PHP Notice:  Undefined index: repositories in /vagrant/content/plugins/types/library/toolset/installer/includes/installer.class.php on line 1420
+[19-Aug-2016 08:19:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in /vagrant/content/plugins/types/library/toolset/installer/includes/installer.class.php on line 1420
+[19-Aug-2016 08:23:28 UTC] PHP Notice:  Undefined index: repositories in /vagrant/content/plugins/types/library/toolset/installer/includes/installer.class.php on line 2063
+[19-Aug-2016 08:23:28 UTC] PHP Warning:  Invalid argument supplied for foreach() in /vagrant/content/plugins/types/library/toolset/installer/includes/installer.class.php on line 2063
+[19-Aug-2016 08:23:28 UTC] PHP Notice:  Undefined index: repositories in /vagrant/content/plugins/types/library/toolset/installer/includes/installer.class.php on line 2063
+[19-Aug-2016 08:23:28 UTC] PHP Warning:  Invalid argument supplied for foreach() in /vagrant/content/plugins/types/library/toolset/installer/includes/installer.class.php on line 2063
+[19-Aug-2016 08:23:28 UTC] PHP Notice:  Undefined index: repositories in /vagrant/content/plugins/types/library/toolset/installer/includes/installer.class.php on line 1374
+[19-Aug-2016 08:23:28 UTC] PHP Warning:  Invalid argument supplied for foreach() in /vagrant/content/plugins/types/library/toolset/installer/includes/installer.class.php on line 1374
+[19-Aug-2016 08:23:28 UTC] PHP Notice:  Undefined index: repositories in /vagrant/content/plugins/types/library/toolset/installer/includes/installer.class.php on line 1420
+[19-Aug-2016 08:23:28 UTC] PHP Warning:  Invalid argument supplied for foreach() in /vagrant/content/plugins/types/library/toolset/installer/includes/installer.class.php on line 1420
+[19-Aug-2016 08:23:28 UTC] PHP Notice:  Undefined index: repositories in /vagrant/content/plugins/types/library/toolset/installer/includes/installer.class.php on line 1420
+[19-Aug-2016 08:23:28 UTC] PHP Warning:  Invalid argument supplied for foreach() in /vagrant/content/plugins/types/library/toolset/installer/includes/installer.class.php on line 1420
