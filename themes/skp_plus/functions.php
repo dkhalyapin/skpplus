@@ -63,7 +63,7 @@ function skp_plus_setup() {
 	add_theme_support( 'custom-background', apply_filters( 'skp_plus_custom_background_args', array(
 		'default-color' => 'ffffff',
 		'default-image' => '',
-	) ) );
+	) ) );	
 }
 endif;
 add_action( 'after_setup_theme', 'skp_plus_setup' );
