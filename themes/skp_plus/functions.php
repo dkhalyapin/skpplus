@@ -47,6 +47,15 @@ function skp_plus_setup() {
 		'primary' => esc_html__( 'Primary', 'skp_plus' ),
 	) );
 
+	//Установки для меню
+	add_filter('wp_nav_menu_args', 'wp_nav_menu_settings');
+	function wp_nav_menu_settings($args = ''){
+		$args['container'] = false;
+		$args['items_wrap'] = '<ul>%3$s</ul>';
+		return $args;
+	}
+
+
 	/*
 	 * Switch default core markup for search form, comment form, and comments
 	 * to output valid HTML5.

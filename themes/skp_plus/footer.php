@@ -4,14 +4,7 @@
 			<div class="row">				
 				<div class="col-xs-3 col-sm-3 col-md-3">
 					<nav class="main-menu">
-						<ul>
-							<li class="active"><a href="#">Главная</a></li>
-							<li><a href="#">Ремонт</a></li>
-							<li><a href="#">Организациям</a></li>
-							<li><a href="#">Акции</a></li>
-							<li><a href="#">Статьи</a></li>
-							<li><a href="#">Контакты</a></li>
-						</ul>
+						<?php wp_nav_menu(array('theme_location' => 'primary'));?>
 					</nav>					
 				</div>
 				<div class="col-xs-8 col-xs-offset-1 col-sm-9 col-sm-offset-0 col-md-9">

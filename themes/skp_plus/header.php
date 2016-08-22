@@ -47,26 +47,12 @@
 					<a href="#" class="toggle-menu hidden-lg hidden-md hidden-sm"><span></span></a>
 					<div class="col-lg-6 col-lg-pull-3 col-sm-12">
 						<nav class="main-menu hidden-xs">
-							<ul>
-								<li class="active"><a href="#">Главная</a></li>
-								<li><a href="#">Ремонт</a></li>
-								<li><a href="#">Организациям</a></li>
-								<li><a href="#">Акции</a></li>
-								<li><a href="#">Статьи</a></li>
-								<li><a href="#">Контакты</a></li>
-							</ul>
+							<?php wp_nav_menu(array('theme_location' => 'primary'));?>
 						</nav>
 					</div>
 					<div class="col-xs-12">
 						<nav class="main-menu hidden-menu clearfix">
-							<ul>
-								<li class="active"><a href="#">Главная</a></li>
-								<li><a href="#">Ремонт</a></li>
-								<li><a href="#">Организациям</a></li>
-								<li><a href="#">Акции</a></li>
-								<li><a href="#">Статьи</a></li>
-								<li><a href="#">Контакты</a></li>
-							</ul>
+							<?php wp_nav_menu(array('theme_location' => 'primary'));?>
 						</nav>
 					</div>
 				</div>
