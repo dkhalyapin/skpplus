@@ -1,26 +1,66 @@
-<?php
-/**
- * The template for displaying the footer.
- *
- * Contains the closing of the #content div and all content after.
- *
- * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
- *
- * @package skp_plus
- */
 
-?>
-
-	</div><!-- #content -->
-
-	<footer id="colophon" class="site-footer" role="contentinfo">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'skp_plus' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'skp_plus' ), 'WordPress' ); ?></a>
-			<span class="sep"> | </span>
-			<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'skp_plus' ), 'skp_plus', '<a href="http://underscores.me/" rel="designer">Underscores.me</a>' ); ?>
-		</div><!-- .site-info -->
-	</footer><!-- #colophon -->
-</div><!-- #page -->
+	<footer class="main-footer">
+		<div class="container">
+			<div class="row">				
+				<div class="col-xs-3 col-sm-3 col-md-3">
+					<nav class="main-menu">
+						<ul>
+							<li class="active"><a href="#">Главная</a></li>
+							<li><a href="#">Ремонт</a></li>
+							<li><a href="#">Организациям</a></li>
+							<li><a href="#">Акции</a></li>
+							<li><a href="#">Статьи</a></li>
+							<li><a href="#">Контакты</a></li>
+						</ul>
+					</nav>					
+				</div>
+				<div class="col-xs-8 col-xs-offset-1 col-sm-9 col-sm-offset-0 col-md-9">
+					<div class="row">
+						<div class="col-sm-12 col-md-5">
+							<div class="footer-middle-content">
+								<span>Отремонтировать ваше устройство?</span>
+								<p>Самый простой и быстрый способ отремонтировать ваше устройство сегодня.</p>
+								<a href="#">Оставить заявку</a>
+							</div>
+						</div>					
+						<div class="col-sm-12 col-md-7">
+							<div class="contacts-wrapper">
+								<a href="#"><i class="fa fa-map-marker"></i></a><span><strong> Адрес: </strong>г. Мурманск, ул. Софьи Перовской, 16</span>
+								<p><a href="tel: 88152702412"><i class="fa fa-phone"></i></a><span><strong> Телефон: </strong>8(8152) 70-24-12</span></p>
+								<a href="#"><i class="fa fa-envelope-o"></i></a><span><strong> E-Mail: </strong>emcomhelp@gmail.com</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-12">
+					<div class="social-wrapper">
+						<a href="#"><i class="fa fa-vk"></i></a>
+						<a href="#"><i class="fa fa-facebook"></i></a>
+						<a href="#"><i class="fa fa-twitter"></i></a>
+						<a href="#"><i class="fa fa-instagram"></i></a>
+					</div>
+				</div>				
+			</div>			
+		</div>		
+		<div class="bottom-footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12">
+						<div class="col-sm-3 col-sm-push-9">
+							<div class="made-in">
+								<span>Сделано с <i class="fa fa-heart"></i> в Мурманске</span>
+							</div>
+						</div>
+						<div class="col-sm-9 col-sm-pull-3">
+							<div class="copyright">
+								<span><i class="fa fa-copyright"></i>2010 - 2016 Скорая компьютерная помощь плюс. Все права защищены.</span>
+							</div>
+						</div>					
+					</div>
+				</div>
+			</div>		
+		</div>
+	</footer>	
 
 <?php wp_footer(); ?>
 
