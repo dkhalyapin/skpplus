@@ -25,6 +25,9 @@ $(function() {
 		slider.trigger('prev.owl.carousel');		
 	});
 		
+	//Валидация номера с помощь Masked Input
+	$("#inputTel").mask("8 (999) 999-99-99");
+	
 	//SVG Fallback
 	if(!Modernizr.svg) {
 		$("img[src*='svg']").attr("src", function() {

@@ -55,7 +55,6 @@ function skp_plus_setup() {
 		return $args;
 	}
 
-
 	/*
 	 * Switch default core markup for search form, comment form, and comments
 	 * to output valid HTML5.
@@ -114,7 +113,7 @@ function skp_plus_scripts() {
 	// wp_enqueue_style( 'skp_plus-style', get_stylesheet_uri() );
 
 	wp_enqueue_script('common_libs', get_template_directory_uri() . '/js/libs.js', array('jquery'));
-	wp_enqueue_script('common_scripts', get_template_directory_uri() . '/js/common.js', array('jquery'));
+	wp_enqueue_script('common_scripts', get_template_directory_uri() . '/js/common.js', array('common_libs'));
 
 	wp_enqueue_script( 'skp_plus-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 
@@ -125,6 +124,21 @@ function skp_plus_scripts() {
 	}
 }
 add_action( 'wp_enqueue_scripts', 'skp_plus_scripts' );
+
+//Отключение CF7 на страницах, где нет формы обратной связи
+function deregister_cf7_scripts(){
+	if (!is_page('request', 'contacts')){
+		wp_deregister_script('contact-form-7');
+	}
+}
+add_action('wp_print_scripts', 'deregister_cf7_scripts');
+
+function deregister_cf7_styles(){
+	if (!is_page('request', 'contacts')){
+		wp_deregister_style('contact-form-7');
+	}
+}
+add_action('wp_print_scripts', 'deregister_cf7_styles');
 
 /**
  * Implement the Custom Header feature.

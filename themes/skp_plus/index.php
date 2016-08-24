@@ -10,7 +10,7 @@ get_header(); ?>
 						<h1>Квалифицированный</h1>
 						<h3>Ремонт цифровой техники</h3>
 						<p>Простой путь ремонта и защита устройств</p>
-						<a href="#" class="button">Ремонтировать</a>
+						<a href="request" class="button">Ремонтировать</a>
 					</div>
 				</div>				
 			</div>
@@ -181,7 +181,7 @@ get_header(); ?>
 					<div class="bottom-content">
 						<h3>Ремонтировать моё устройство сегодня!</h3>
 						<p>В Мурманске и Мурманской области.<br>Скорая Компьютерная Помощь плюс работает только для Вас!</p>
-						<a href="#" class="button">Оставить заявку</a>
+						<a href="request" class="button">Оставить заявку</a>
 						<a href="#" class="button inv-button"><i class="fa fa-list-alt"></i>Все услуги</a>
 					</div>					
 				</div>
