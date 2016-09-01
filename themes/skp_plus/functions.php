@@ -140,6 +140,14 @@ function deregister_cf7_styles(){
 }
 add_action('wp_print_scripts', 'deregister_cf7_styles');
 
+// Отключаем API Яндекс.Карты на всех страницах, кроме контактов
+function deregister_ymap_api(){
+	if (!is_page('contacts')){
+		wp_deregister_script('ymaps_show');
+	}
+}
+add_action('wp_print_scripts', 'deregister_ymap_api');
+
 /**
  * Implement the Custom Header feature.
  */

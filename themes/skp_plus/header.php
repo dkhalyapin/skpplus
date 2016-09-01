@@ -40,7 +40,7 @@
 					<div class="col-lg-3 col-lg-push-6 col-md-6 col-sm-6">
 						<div class="phone">
 							<div class="phone-wrap">
-								<i class="fa fa-mobile"></i><a href="tel: 88152702412">8(8152) 70-24-12</a>
+								<i class="fa fa-mobile"></i><a href="tel:88152702412">8(8152) 70-24-12</a>
 							</div>
 						</div>						
 					</div>

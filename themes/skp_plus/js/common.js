@@ -1,4 +1,4 @@
-jQuery(document).ready(function($){
+(function($){
 $(function() {
 
 	//Toogle Menu
@@ -24,7 +24,7 @@ $(function() {
 	$(".slider-nav .prev").click(function(){
 		slider.trigger('prev.owl.carousel');		
 	});
-		
+	
 	//Валидация номера с помощь Masked Input
 	$("#inputTel").mask("8 (999) 999-99-99");
 	
@@ -34,6 +34,9 @@ $(function() {
 			return $(this).attr("src").replace(".svg", ".png");
 		});
 	};
+
+	//Одинаковая высота колонок
+	$('.s-contacts-wrapper .item').matchHeight();
 
 	//Replace all SVG images with inline SVG
 	$('img.img-svg').each(function(){
@@ -89,4 +92,4 @@ $(function() {
 	});
 
 });
-});
+})(jQuery);
