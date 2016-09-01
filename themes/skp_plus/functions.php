@@ -127,14 +127,14 @@ add_action( 'wp_enqueue_scripts', 'skp_plus_scripts' );
 
 //Отключение CF7 на страницах, где нет формы обратной связи
 function deregister_cf7_scripts(){
-	if (!is_page('request', 'contacts')){
+	if (!is_page(array('request', 'contacts'))){
 		wp_deregister_script('contact-form-7');
 	}
 }
 add_action('wp_print_scripts', 'deregister_cf7_scripts');
 
 function deregister_cf7_styles(){
-	if (!is_page('request', 'contacts')){
+	if (!is_page(array('request', 'contacts'))){
 		wp_deregister_style('contact-form-7');
 	}
 }

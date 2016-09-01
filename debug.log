@@ -357,3 +357,4 @@
 [01-Sep-2016 06:48:24 UTC] PHP Parse error:  syntax error, unexpected '$coordinates' (T_VARIABLE) in /vagrant/content/plugins/show_ya_map.php on line 24
 [01-Sep-2016 06:59:32 UTC] PHP Warning:  Parameter 1 to putToFooter() expected to be a reference, value given in /vagrant/wp/wp-includes/plugin.php on line 524
 [01-Sep-2016 07:18:09 UTC] PHP Notice:  Use of undefined constant ymaps_show - assumed 'ymaps_show' in /vagrant/content/themes/skp_plus/functions.php on line 146
+[01-Sep-2016 07:37:09 UTC] PHP Parse error:  syntax error, unexpected '{' in /vagrant/content/themes/skp_plus/functions.php on line 130
