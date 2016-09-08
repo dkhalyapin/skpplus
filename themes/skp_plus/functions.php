@@ -148,6 +148,10 @@ function deregister_ymap_api(){
 }
 add_action('wp_print_scripts', 'deregister_ymap_api');
 
+//Отключаем дефолтовые стили TablePress и кнопку "изменить"
+add_filter( 'tablepress_use_default_css', '__return_false' );
+add_filter( 'tablepress_edit_link_below_table', '__return_false' );
+
 /**
  * Implement the Custom Header feature.
  */

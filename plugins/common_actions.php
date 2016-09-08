@@ -50,4 +50,19 @@ function disable_wp_emojis_in_tinymce( $plugins ) {
         return array();
     }
 }
+
+//Регистрируем шорткод для блока гарантий
+function add_guarantees_to_post(){
+	return '<div class="guarantees table">
+							<div class="tr">
+								<div class="td g-desc">
+									<strong>Мы гарантируем качество наших работ!</strong><br>
+									<span>Какую бы услугу Вы не выбрали, какой бы сложной не была работа, Вы можете рассчитывать на великолепное исполнение работы. Мы лучше - <a href="'.get_bloginfo('url').'/testimotionals">нас выбирают</a>!</span>
+								</div>
+								<div class="td"><i class="fa fa-shield"></i></div>
+							</div>
+						</div>';
+}
+add_shortcode('Гарантии', 'add_guarantees_to_post');
+
 ?>
